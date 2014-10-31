@@ -2,12 +2,15 @@ wordcount
 =========
 
 A simple python wordcount which can be run with unix pipes. 
+Sample text file included is available from Project Gutenberg, for the use of everyone with no cost or restrictions. 
 
-Sample text file included is from
-Frankenstein,
-or the Modern Prometheus
-by
-Mary Wollstonecraft (Godwin) Shelley
+possible usage
+% cat frankenstein.txt | ./wc_map.py | sort | ./wc_reduce.py | sort -n -K2
+or
+% ./wc_map.py frankenstein.txt | ./wc_red.py | sort -n -K2
 
-Available from Project Gutenberg, for the use of everyone with no cost or restrictions. 
+
+todo: 
+*implement Counter (available from python 2.7)
+
 
