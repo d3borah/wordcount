@@ -9,5 +9,5 @@ or the Modern Prometheus
 by
 Mary Wollstonecraft (Godwin) Shelley
 
-Available from Project Gutenberg to everyone with no cost or restrictions. 
+Available from Project Gutenberg, for the use of everyone with no cost or restrictions. 
 
